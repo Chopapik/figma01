@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Recursive:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background: #232830;
+}
+
+header {
+    display: flex;
+    width: 90vw;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo {}
+
+#options {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+#options .option {}
+
+#page-title {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 100px;
+    font-style: italic;
+}
+
+#page-title img {
+    width: 300px;
+}
+
+#page-title p1 {
+    font-weight: 400;
+    font-family: 'Recursive', sans-serif;
+    margin-top: 100px;
+    color: #FF7575;
+    font-size: 85.2px;
+}
+
+#page-title p2 {
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 29px;
+    font-style: normal;
+}
+
+hr {
+    margin-top: 100px;
+    border-color: #4D4D4D;
+    width: 100%;
+}
+
+#category-listing {
+    display: flex;
+    justify-content: space-between;
+    width: 49%;
+    margin-top: 30px;
+}
+
+#category-listing p {
+    font-family: 'Recursive', sans-serif;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 400;
+    color: #a8a6a6;
+}
+
+#articles-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+    max-width: 70vw;
+}
+
+.group {
+    padding: 20px;
+    max-width: 350px;
+    max-height: 399px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-radius: 22px;
+
+}
+
+.group-picture {
+    width: 337px;
+    height: 160px;
+    background-color: gray;
+    border-radius: 22px;
+}
+
+.group #p1,
+#p2 {
+    color: #000;
+
+}
+
+.group #p1 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 2;
+}
+
+.group #p2 {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.group-picture {
+    overflow: hidden;
+    justify-content: center;
+}
+
+.group-picture img {
+    display: block;
+    top: 300px;
+    width: 337.08px;
+}
+
+#group2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+}
+
+#group2 span {
+    color: black;
+    font-size: 16px;
+}
